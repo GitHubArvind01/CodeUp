@@ -5,6 +5,7 @@ var typed = new Typed('#typed', {
     typeSpeed: 200,
     loop: true,
     strings: [
-        'Web Designer', 'Web Developer', 'Photographer',
+        
+        'Java Developer', 'UI/UX Designer', 'Fronted Designer', 'Backend Developer',
     ],
 });
