@@ -33,6 +33,12 @@ body {
   font-size: 16px;
   color: #161c2d;
 }
+@media (min-width: 200px) and (max-width: 400px){
+  .cta-full .padding-less.img{
+    max-width: 0rem;
+    max-height: 0rem;
+  }
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
