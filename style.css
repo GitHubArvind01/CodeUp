@@ -38,7 +38,18 @@ body {
     max-width: 0rem;
     max-height: 0rem;
   }
+  .container-title .titles .title{
+    margin-top: 15px;
+  }
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
