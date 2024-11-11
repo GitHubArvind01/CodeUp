@@ -62,7 +62,10 @@ h1, h2, h3, h4, h5, h6,
   .text-light-mute{
     color: #8492a6 !important;
     font-size: 1.8rem;
-    margin-left: 3rem;
+    margin-left: 9rem;
+  }
+  .note-text {
+    margin-left: 9rem;
   }
 }
 
