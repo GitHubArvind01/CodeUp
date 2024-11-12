@@ -1977,4 +1977,14 @@ button:not(:disabled) {
     display: none;
   }
 }
+
+@media (min-width: 200px) and (max-width: 362px){
+  .btnt.btn-outline-primary{
+    border: 1px solid #007bff;
+    color: #007bff;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+  }
+}
 /*# sourceMappingURL=style.css.map */
