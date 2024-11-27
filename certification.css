@@ -1,0 +1,30 @@
+.sift {
+    display: flex;
+    flex-direction: column; /* Display rows vertically */
+    align-items: center; /* Center align items horizontally */
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row; /* Display images in a row */
+    justify-content: space-around; /* Center align items horizontally with space between */
+    margin-bottom: 20px; /* Add some space between rows */
+}
+
+.fill {
+    width: 30%; /* Set width for each image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.fill img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+     
+}
+ 
+.fill:hover {
+    transform: scale(1.3);
+}
