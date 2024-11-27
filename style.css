@@ -1602,7 +1602,12 @@ button:not(:disabled) {
     display: none;
   }
 }
-
+@media (min-width: 992px) {
+  .cta-full .padding-less.img {
+    margin-left: -60rem;
+    width: auto;
+  }
+}
 .education-badge {
   width: 100px !important;
   height: 25px;
