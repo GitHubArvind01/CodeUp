@@ -1,31 +1,4 @@
-/*
-  Template Name: Queue - Personal Responsive Landing Template
-  Author:        Arvind Kumar
-  E-mail:        kumararvind21390@gmail.com
-  Version:       1.0.0
-  Created:       Nov 2024
-  File Description: Main Css file of the template
-*/
-/***********************/
-/*       INDEX         */
-/*======================
- *    01.  Variables   *
- *    02   General     *
- *    03.  Helper      *
- *    04.  Components  *
- *    05.  Preloader   *
- *    06.  Menu        *
- *    07.  Home        *
- *    08.  About       *
- *    09.  Service     *
- *    10.  Portfolio   *
- *    11.  Client      *
- *    12.  Eduction    *
- *    13.  Counter     *
- *    14.  Blog        *
- *    15.  Contact     *
- *    16.  Footer      *
- ======================*/
+
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&amp;display=swap");
 body {
   font-family: "Nunito", sans-serif;
@@ -775,50 +748,7 @@ a {
   color: #ffffff;
 }
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #007bff;
-  z-index: 9999999;
-}
 
-#preloader #status {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-#preloader .spinner {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  margin: 100px auto;
-}
-
-#preloader .double-bounce1,
-#preloader .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #ffffff;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-          animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-#preloader #status .spinner .double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-          animation-delay: -1.0s;
-}
 
 @-webkit-keyframes sk-bounce {
   0%, 100% {
@@ -1843,9 +1773,6 @@ button:not(:disabled) {
   font-size: 14px;
 }
 
-.contact-loader {
-  display: none;
-}
 
 #success_page {
   text-align: center;
