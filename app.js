@@ -1,14 +1,4 @@
- 
 
-
-/*--------------------------*/
-/*         INDEX            */
-/*###########################
- *     01.  Loader          *
- *     02.  Menu            *
- *     03.  Sticky Menu     *
- *     03.  Back to top     *
-############################*/
 
 window.addEventListener('load',   fn , false )
 
