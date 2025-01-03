@@ -155,7 +155,6 @@ height: 35px;
 
 /* Hide the image skeleton */
 .hero-skeleton .image-skeleton {
-margin-top: -2rem;
 width: 16rem;
 height: 16rem;
 display:block;
