@@ -166,7 +166,7 @@ a {
 
 }
 .text-primarying{
-  font-size: 57px;
+  font-size: 48px;
   color: #007bff !important;
 }
 
@@ -995,7 +995,7 @@ button:not(:disabled) {
 }
 
 .title-heading .heading {
-  font-size: 57px;
+  font-size: 48px;
   letter-spacing: -0.5px;
   line-height: 1.2;
 }
