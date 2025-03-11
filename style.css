@@ -1067,7 +1067,7 @@ button:not(:disabled) {
 
 .about-details {
   border-radius: 10px;
-  width: 276px;
+  width: 100vh;
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
