@@ -6,6 +6,6 @@ var typed = new Typed('#typed', {
     loop: true,
     strings: [
         
-        'Java Developer', 'UI/UX Designer', 'Fronted Designer', 'Backend Developer',
+                'Software Engineer', 'Software Engineer', 'Software Engineer', 'Software Engineer',
     ],
 });
